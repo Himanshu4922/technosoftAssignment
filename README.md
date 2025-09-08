@@ -4,7 +4,7 @@ A modern, responsive React application featuring login and sign-up functionality
 
 
 ## 🚀 Live Demo  
-👉 [View Live Application](https://your-live-link.vercel.app)
+👉 [Live Application](https://technosoft-assignment.vercel.app/)
 
 ## Features
 
