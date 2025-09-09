@@ -41,7 +41,7 @@ const SignUp = () => {
     const phoneRegex = /^(\+\d{1,3}[-.\s]?)?\d{10}$/;
     if (!phone) return "Phone number is required";
     if (!phoneRegex.test(phone))
-      return "Phone must include country code and valid phone number";
+      return "Phone number must be valid";
     return "";
   };
 

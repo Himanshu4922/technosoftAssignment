@@ -72,6 +72,10 @@ const Login = () => {
       password: passwordError,
     });
 
+    if(usernameError==="User does not exists"){
+      toast.error("Signup first to login");
+    }
+
     if (!usernameError && !passwordError) {
       //   console.log("Login successful:", formData);
       toast.success("Login Successful");
